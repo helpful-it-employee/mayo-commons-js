@@ -36,6 +36,8 @@ function ComputeCheckDigit(strMCN){
 	//Divide the sum by 10, and obtain the remainder.
 	intStep4=intStep3%10;
 
+	// Mayo Clinic Number 8
+
 	//If the remainder is 0 Then check-digit is 0.
 	if (intStep4==0){
 		return 0;
